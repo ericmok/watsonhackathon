@@ -130,7 +130,7 @@ export const main = (name, text, appId, secret, cb) => {
       // Send the message
       log('Sending \'%s\' to space %s', text, space.title);
       send(space.id,
-        text || 'Hello World! Welcome to **Watson Work**!',
+        text || 'Hello Naive Babes!',
         tok, (err, res) => {
           if(err) {
             cb(err);
@@ -152,4 +152,3 @@ if(require.main === module)
       if(err)
         console.log('Error sending message:', err);
     });
-
