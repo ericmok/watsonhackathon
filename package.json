@@ -24,6 +24,7 @@
   "main": "lib/app.js",
   "scripts": {
     "helloworld": "node lib/app.js",
+    "change": "npm run babel && npm run test",
     "babel": "babel src --out-dir lib",
     "test": "mocha lib/test",
     "lint": "eslint src",

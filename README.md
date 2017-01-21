@@ -63,6 +63,11 @@ The Hello World app will send "Hello World! Welcome to **Watson Work**!" to
 the conversation in the **Examples** space. You should now see a new message
 in that space.
 
+## Changing code
+
+Every time a change is made, run `npm run change` to compile new changes.
+
+
 ## Project layout
 
 The sample project source tree is organized as follows:
@@ -91,4 +96,3 @@ conversation in the selected space.
 ## How can I contribute?
 
 Pull requests welcome!
-
