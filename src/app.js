@@ -6,42 +6,10 @@
 
 import * as request from 'request';
 import debug from 'debug';
+import {Bot} from './bot.js';
 
 // Debug log
 const log = debug('watsonwork-helloworld-app');
-
-// Return the list of spaces the app belongs to
-const spaces = (tok, cb) => {
-  request.post('https://api.watsonwork.ibm.com/graphql', {
-    headers: {
-      jwt: tok,
-      'Content-Type': 'application/graphql'
-    },
-
-    // This is a GraphQL query, used to retrieve the list of spaces
-    // visible to the app (given the app OAuth token)
-    body: `
-      query {
-        spaces (first: 50) {
-          items {
-            title
-            id
-          }
-        }
-      }`
-  }, (err, res) => {
-    if(err || res.statusCode !== 200) {
-      log('Error retrieving spaces %o', err || res.statusCode);
-      cb(err || new Error(res.statusCode));
-      return;
-    }
-
-    // Return the list of spaces
-    const body = JSON.parse(res.body);
-    log('Space query result %o', body.data.spaces.items);
-    cb(null, body.data.spaces.items);
-  });
-};
 
 // Return an OAuth token for the app
 const token = (appId, secret, cb) => {
@@ -64,45 +32,6 @@ const token = (appId, secret, cb) => {
   });
 };
 
-// Send an app message to the conversation in a space
-const send = (spaceId, text, tok, cb) => {
-  request.post(
-    'https://api.watsonwork.ibm.com/v1/spaces/' + spaceId + '/messages', {
-      headers: {
-        Authorization: 'Bearer ' + tok
-      },
-      json: true,
-      // An App message can specify a color, a title, markdown text and
-      // an 'actor' useful to show where the message is coming from
-      body: {
-        type: 'appMessage',
-        version: 1.0,
-        annotations: [{
-          type: 'generic',
-          version: 1.0,
-
-          color: '#6CB7FB',
-          title: 'Sample Message',
-          text: text,
-
-          actor: {
-            name: 'from sample helloworld app',
-            avatar: 'https://avatars1.githubusercontent.com/u/22985179',
-            url: 'https://github.com/watsonwork-helloworld'
-          }
-        }]
-      }
-    }, (err, res) => {
-      if(err || res.statusCode !== 201) {
-        log('Error sending message %o', err || res.statusCode);
-        cb(err || new Error(res.statusCode));
-        return;
-      }
-      log('Send result %d, %o', res.statusCode, res.body);
-      cb(null, res.body);
-    });
-};
-
 // Main app entry point
 // Send a message to the conversation in the space matching the given name
 export const main = (name, text, appId, secret, cb) => {
@@ -113,33 +42,8 @@ export const main = (name, text, appId, secret, cb) => {
       return;
     }
 
-    // List the spaces the app belongs to
-    spaces(tok, (err, slist) => {
-      if(err) {
-        cb(err);
-        return;
-      }
-
-      // Find a space matching the given name
-      const space = slist.filter((s) => s.title === name)[0];
-      if(!space) {
-        cb(new Error('Space not found'));
-        return;
-      }
-
-      // Send the message
-      log('Sending \'%s\' to space %s', text, space.title);
-      send(space.id,
-        text || 'Hello Naive Babes!',
-        tok, (err, res) => {
-          if(err) {
-            cb(err);
-            return;
-          }
-          log('Sent message to space %s', space.title);
-          cb(null);
-        });
-    });
+    var bot = new Bot();
+    bot.run(tok, name, text, cb);
   });
 };
 
@@ -147,7 +51,9 @@ if(require.main === module)
   // Run the app
   main(process.argv[2], process.argv[3],
     // Expect the app id and secret to be configured in env variables
-    process.env.HELLOWORLD_APP_ID, process.env.HELLOWORLD_APP_SECRET,
+    //process.env.HELLOWORLD_APP_ID, process.env.HELLOWORLD_APP_SECRET,
+    "80d53043-ef76-45af-9dc7-12abc226319c",
+    "l6zh47dr0xlp82ybaketfsllxa8674qm",
     (err) => {
       if(err)
         console.log('Error sending message:', err);
