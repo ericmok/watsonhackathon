@@ -4,9 +4,9 @@ require "sinatra/json"
 require 'json'
 require "net/http"
 require "uri"
-APP_ID = ""
-APP_SECRET = ""
-webhoook = ""
+APP_ID = "7e2cff45-b9cb-4dac-b5a8-76b05b30ba4b"
+APP_SECRET = "divltdwzi227thllqi8gr7x0ueb1omi"
+webhook = "6lrw4qygp4wvqn7rc47tusudfgqlafah"
 
 
 require 'net/http'
@@ -33,7 +33,7 @@ access_token = JSON.parse(response.body)["access_token"]
 require 'openssl'
 require 'httparty'
 
-key = webhoook
+key = webhook
 digest = OpenSSL::Digest.new('sha256')
 
 spaceId = ""
