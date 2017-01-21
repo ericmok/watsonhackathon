@@ -36,6 +36,16 @@ require 'httparty'
 key = webhoook
 digest = OpenSSL::Digest.new('sha256')
 
+spaceId = ""
+host = "https://api.watsonwork.ibm.com/v1/spaces/#{spaceId}/messages"
+require './message'
+require './annotation'
+
+body = Message.new
+body.text = "hey babe, wyd"
+res = HTTParty.post( host, :headers => { "Authorization" => "Bearer #{access_token}", 'Content-Type' => 'application/json'}, :body => body.to_json)
+
+
 
 post '/webhook' do
   if JSON.parse(request.body.string)['type'] == "verification"
@@ -44,29 +54,5 @@ post '/webhook' do
   else
     pp request.env
     pp request.body.string
-    spaceId = ""
-    host = "https://api.watsonwork.ibm.com/v1/spaces/#{spaceId}/messages"
-
-
-    body = {
-      type: 'appMessage',
-      version: 1.0,
-      annotations: [{
-        type: 'generic',
-        version: 1.0,
-
-        color: '#6CB7FB',
-        title: 'Echo message',
-        text: "NO!",
-
-        actor: {
-          name: 'from sample echo app',
-          avatar: 'https://avatars1.githubusercontent.com/u/22985179',
-          url: 'https://github.com/watsonwork/watsonwork-echo'
-        }
-      }]
-    }
-    res = HTTParty.post( host, :headers => { "Authorization" => "Bearer #{access_token}", 'Content-Type' => 'application/json'}, :body => body.to_json)
-
   end
 end
