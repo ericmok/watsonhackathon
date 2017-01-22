@@ -71,15 +71,9 @@ post '/webhook' do
       if annotation.annotation_type.eql?("message-nlp-docSentiment")
         type = annotation.annotation_payload.doc_sentiment.type
         message = messages.find {|mes| annotation.message_id.eql?(mes.message_id) }
-<<<<<<< HEAD
-        puts type
-        puts message.user_name
-        if(!message.user_name.eql?("Cindy"))
-=======
-        if(message.user_name && !message.user_name.eql?("BOTNAME"))
+        if(message.user_name && !message.user_name.eql?(secrets['BOTNAME']))
           puts type
           puts message.user_name
->>>>>>> 3847956135cff9c0a7b8c429760d6a738e68a837
           message_to_send = Message.new
           message_to_send.text = RespondBot.concerned(message.user_name) if type.eql? :negative
           message_to_send.text = RespondBot.respond(message.user_name) if !type.eql? :negative
