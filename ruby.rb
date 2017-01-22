@@ -73,7 +73,7 @@ post '/webhook' do
         message = messages.find {|mes| annotation.message_id.eql?(mes.message_id) }
         puts type
         puts message.user_name
-        if(!message.user_name.eql?("BOTNAME"))
+        if(!message.user_name.eql?("Cindy"))
           message_to_send = Message.new
           message_to_send.text = RespondBot.concerned(message.user_name) if type.eql? :negative
           message_to_send.text = RespondBot.respond(message.user_name) if !type.eql? :negative
