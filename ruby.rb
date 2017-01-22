@@ -45,7 +45,7 @@ require 'httparty'
 key = webhook
 digest = OpenSSL::Digest.new('sha256')
 
-spaceId = ""
+spaceId = "58838c97e4b007614d439dcf"
 host = "https://api.watsonwork.ibm.com/v1/spaces/#{spaceId}/messages"
 require_relative 'message'
 require_relative 'annotation'
@@ -55,7 +55,6 @@ body.text = RespondBot.flirt
 res = HTTParty.post( host, :headers => { "Authorization" => "Bearer #{access_token}", 'Content-Type' => 'application/json'}, :body => body.to_json)
 
 messages = []
-
 
 post '/webhook' do
   if JSON.parse(request.body.string)['type'] == "verification"
