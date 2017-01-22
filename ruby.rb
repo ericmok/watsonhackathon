@@ -10,9 +10,20 @@ webhook = "aujnz0q74zqu1vz0i9qcelssxo4b5gr2"
 
 annotations_file = "annotations.txt"
 
+
 require 'net/http'
 require 'uri'
 require 'pp'
+
+require "yaml"
+
+secrets = YAML.load_file('secret.yaml')
+
+APP_ID = secrets['APP_ID']
+APP_SECRET = secrets['APP_SECRET']
+webhook = secrets['webhook']
+
+pp secrets.inspect
 
 uri = URI.parse("https://api.watsonwork.ibm.com/oauth/token")
 reqq = Net::HTTP::Post.new(uri)
