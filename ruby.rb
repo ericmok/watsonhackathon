@@ -51,7 +51,7 @@ require_relative 'message'
 require_relative 'annotation'
 
 body = Message.new
-body.text = "hey babe, wyd"
+body.text = RespondBot.flirt
 res = HTTParty.post( host, :headers => { "Authorization" => "Bearer #{access_token}", 'Content-Type' => 'application/json'}, :body => body.to_json)
 
 messages = []
