@@ -14,7 +14,7 @@ module RespondBot
   def self.respond(name)
     [
       "I don't know what you said#{' ' + name.split(" ").first}, but i'm glad you're talking to me",
-      "Thanks for noticing me!#{' ' + name.split(" ").first}",
+      "Thanks for noticing me#{' ' + name.split(" ").first}!",
       "awww you!",
       "#{name.split(" ").first.upcase}!",
       "you are so cute when you text#{' ' + name.split(" ").first}!"
