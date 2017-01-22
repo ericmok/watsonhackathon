@@ -15,7 +15,7 @@ require 'pp'
 
 uri = URI.parse("https://api.watsonwork.ibm.com/oauth/token")
 reqq = Net::HTTP::Post.new(uri)
-reqq.basic_auth("","")
+reqq.basic_auth(APP_ID, APP_SECRET)
 reqq.set_form_data(
   "grant_type" => "client_credentials",
 )
