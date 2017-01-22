@@ -1,11 +1,10 @@
-
 require 'sinatra'
 require "sinatra/json"
 require 'json'
 require "net/http"
 require "uri"
-
-
+require './message_created'
+require './message_annotation_added'
 
 annotations_file = "annotations.txt"
 
@@ -61,6 +60,10 @@ post '/webhook' do
     headers['X-OUTBOUND-TOKEN'] = "#{OpenSSL::HMAC.hexdigest('sha256', key, json(response: JSON.parse(request.body.string)['challenge']))}"
     json(response: JSON.parse(request.body.string)['challenge'])
   else
+    body_json = JSON.parse(request.body.string)
+    obj = MessageCreated.new(body_json) if body_json["type"].eql?"message-created"
+    obj = MessageAnnotationAdded.new(body_json) if body_json["type"].eql?"message-annotation-added"
+    pp obj
     pp request.env
     pp request.body.string
     f = File.open(annotations_file,'a')
