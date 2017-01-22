@@ -4,14 +4,20 @@ require "sinatra/json"
 require 'json'
 require "net/http"
 require "uri"
-APP_ID = "7e2cff45-b9cb-4dac-b5a8-76b05b30ba4b"
-APP_SECRET = "divltdwzi227thllqi8gr7x0ueb1omi"
-webhook = "6lrw4qygp4wvqn7rc47tusudfgqlafah"
-
 
 require 'net/http'
 require 'uri'
 require 'pp'
+
+require "yaml"
+
+secrets = YAML.load_file('secret.yaml')
+
+APP_ID = secrets['APP_ID']
+APP_SECRET = secrets['APP_SECRET']
+webhook = secrets['webhook']
+
+pp secrets.inspect
 
 uri = URI.parse("https://api.watsonwork.ibm.com/oauth/token")
 reqq = Net::HTTP::Post.new(uri)
