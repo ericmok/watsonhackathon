@@ -4,17 +4,14 @@ require "sinatra/json"
 require 'json'
 require "net/http"
 require "uri"
-APP_ID = "0a8a9487-5c36-4be9-b466-c33e7695718c"
-APP_SECRET = "2lb6h5x3t616wa9pjjdswx0bqlwutuiy"
-webhook = "aujnz0q74zqu1vz0i9qcelssxo4b5gr2"
+
+
 
 annotations_file = "annotations.txt"
 
 
-require 'net/http'
 require 'uri'
 require 'pp'
-
 require "yaml"
 
 secrets = YAML.load_file('secret.yaml')

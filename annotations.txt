@@ -25,3 +25,132 @@
 {"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"askdljf\",\"docSentiment\":{\"type\":\"neutral\"}}","messageId":"5884f2b3e4b0d193a2358d9c","annotationType":"message-nlp-docSentiment","annotationId":"5884f2b4e4b019247557733d","time":1485107892146,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
 
 
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f521e4b0d193a2358e8f","time":1485108513826,"type":"message-created","userName":"Joshua Suzuki","userId":"0e7833da-ea8c-44a8-9658-767ed232e6ea","contentType":"text/html","content":"im fat"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"hidden\":false,\"spaceId\":\"58838c97e4b007614d439dcf\",\"momentSummary\":{\"phrases\":[{\"label\":\"Yo\",\"source\":\"keyword\",\"score\":0.957717,\"count\":null,\"category\":null},{\"label\":\"Hey Babe\",\"source\":\"keyword\",\"score\":0.855321,\"count\":null,\"category\":null},{\"label\":\"Abc\",\"source\":\"entity\",\"score\":0.79349,\"count\":1,\"category\":\"Company\"},{\"label\":\"Hello\",\"source\":\"keyword\",\"score\":0.73644,\"count\":null,\"category\":null},{\"label\":\"Hi\",\"source\":\"keyword\",\"score\":0.699595,\"count\":null,\"category\":null},{\"label\":\"Ok Bye\",\"source\":\"keyword\",\"score\":0.573137,\"count\":null,\"category\":null},{\"label\":\"Wyd Baby\",\"source\":\"keyword\",\"score\":0.542757,\"count\":null,\"category\":null},{\"label\":\"Test\",\"source\":\"keyword\",\"score\":0.433033,\"count\":null,\"category\":null},{\"label\":\"Night\",\"source\":\"keyword\",\"score\":0.428011,\"count\":null,\"category\":null}],\"mostRelevantMessage\":{\"messageId\":\"5884e997e4b0d193a2358931\",\"published\":1485105559011}},\"momentId\":\"819c9aa8097efe7bc12763a47c5786a61ed6e06a\",\"algorithm\":\"timegap\",\"participants\":[{\"authorId\":\"788e2495-b30a-4f49-b18f-90a1800529e4\",\"messageCount\":32},{\"authorId\":\"0e7833da-ea8c-44a8-9658-767ed232e6ea\",\"messageCount\":9},{\"authorId\":\"c30ed3ad-1057-464f-b844-948f9d367bf7\",\"messageCount\":13},{\"authorId\":\"18adb5c4-298c-4190-a737-8b788487c43f\",\"messageCount\":2},{\"authorId\":\"0a8a9487-5c36-4be9-b466-c33e7695718c\",\"messageCount\":1}],\"startMessage\":{\"messageId\":\"5884daede4b0d193a23584c2\",\"published\":1485101805887},\"lastUpdatedMessage\":{\"messageId\":\"5884f521e4b0d193a2358e8f\",\"published\":1485108513826},\"momentVersion\":6}","messageId":"5884daede4b0d193a23584c2","annotationType":"conversation-moment","annotationId":"5884daeee4b0d193a23584c3","time":1485108513910,"type":"message-annotation-edited","userName":null,"userId":"toscana-service-moment-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"im fat\",\"docSentiment\":{\"score\":-0.547081,\"type\":\"negative\"}}","messageId":"5884f521e4b0d193a2358e8f","annotationType":"message-nlp-docSentiment","annotationId":"5884f522e4b007614d4423c0","time":1485108514071,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"im fat\",\"taxonomy\":[{\"confident\":false,\"label\":\"/health and fitness/disease/cholesterol\",\"score\":0.561662},{\"confident\":false,\"label\":\"/health and fitness/weight loss\",\"score\":0.422885},{\"confident\":false,\"label\":\"/sports/bodybuilding\",\"score\":0.330339}]}","messageId":"5884f521e4b0d193a2358e8f","annotationType":"message-nlp-taxonomy","annotationId":"5884f522e4b007614d4423c1","time":1485108514071,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f522e4b019247557742d","time":1485108514241,"type":"message-created","userName":"Botfly","userId":"c30ed3ad-1057-464f-b844-948f9d367bf7","contentType":"text/html","content":""}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"type\":\"generic\",\"version\":1.0,\"text\":\"hey babe... wyd?\"}","messageId":"5884f522e4b019247557742d","annotationType":"generic","annotationId":"5884f522e4b019247557742c","time":1485108514241,"type":"message-annotation-added","userName":"Botfly","userId":"c30ed3ad-1057-464f-b844-948f9d367bf7"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f52de4b0d193a2358e9b","time":1485108525859,"type":"message-created","userName":"Joshua Suzuki","userId":"0e7833da-ea8c-44a8-9658-767ed232e6ea","contentType":"text/html","content":"im married"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"im married\",\"taxonomy\":[{\"confident\":false,\"label\":\"/society/social institution/marriage/common law marriage\",\"score\":0.86639},{\"confident\":false,\"label\":\"/society/social institution/marriage\",\"score\":0.194656},{\"confident\":false,\"label\":\"/society/social institution/divorce\",\"score\":0.118683}]}","messageId":"5884f52de4b0d193a2358e9b","annotationType":"message-nlp-taxonomy","annotationId":"5884f52ee4b0d193a2358e9d","time":1485108526215,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"im married\",\"docSentiment\":{\"type\":\"neutral\"}}","messageId":"5884f52de4b0d193a2358e9b","annotationType":"message-nlp-docSentiment","annotationId":"5884f52ee4b0d193a2358e9c","time":1485108526215,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f558e4b0d193a2358eab","time":1485108568245,"type":"message-created","userName":"Eric Mok","userId":"788e2495-b30a-4f49-b18f-90a1800529e4","contentType":"text/html","content":"whoa"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"whoa\",\"docSentiment\":{\"type\":\"neutral\"}}","messageId":"5884f558e4b0d193a2358eab","annotationType":"message-nlp-docSentiment","annotationId":"5884f558e4b007614d4423da","time":1485108568611,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f56ce4b0d193a2358eaf","time":1485108588620,"type":"message-created","userName":"Eric Mok","userId":"788e2495-b30a-4f49-b18f-90a1800529e4","contentType":"text/html","content":"hi"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"hi\",\"keywords\":[{\"relevance\":0.967917,\"text\":\"hi\"}]}","messageId":"5884f56ce4b0d193a2358eaf","annotationType":"message-nlp-keywords","annotationId":"5884f56de4b007614d4423db","time":1485108589435,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"hi\",\"docSentiment\":{\"score\":0.501268,\"type\":\"positive\"}}","messageId":"5884f56ce4b0d193a2358eaf","annotationType":"message-nlp-docSentiment","annotationId":"5884f56de4b007614d4423dc","time":1485108589435,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f596e4b0d193a2358ebb","time":1485108630234,"type":"message-created","userName":"Eric Mok","userId":"788e2495-b30a-4f49-b18f-90a1800529e4","contentType":"text/html","content":"aksjdkfjlkajsdfkjaslkdjf"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f599e4b0d193a2358ebc","time":1485108633569,"type":"message-created","userName":"Eric Mok","userId":"788e2495-b30a-4f49-b18f-90a1800529e4","contentType":"text/html","content":"hi"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"hi\",\"keywords\":[{\"relevance\":0.967917,\"text\":\"hi\"}]}","messageId":"5884f599e4b0d193a2358ebc","annotationType":"message-nlp-keywords","annotationId":"5884f599e4b019247557744c","time":1485108633883,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"hi\",\"docSentiment\":{\"score\":0.501268,\"type\":\"positive\"}}","messageId":"5884f599e4b0d193a2358ebc","annotationType":"message-nlp-docSentiment","annotationId":"5884f599e4b019247557744d","time":1485108633883,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f5bbe4b0d193a2358ed0","time":1485108667513,"type":"message-created","userName":"Eric Mok","userId":"788e2495-b30a-4f49-b18f-90a1800529e4","contentType":"text/html","content":"hello"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"hidden\":false,\"spaceId\":\"58838c97e4b007614d439dcf\",\"momentSummary\":{\"phrases\":[{\"label\":\"Yo\",\"source\":\"keyword\",\"score\":0.957717,\"count\":null,\"category\":null},{\"label\":\"Hey Babe\",\"source\":\"keyword\",\"score\":0.855321,\"count\":null,\"category\":null},{\"label\":\"Abc\",\"source\":\"entity\",\"score\":0.79349,\"count\":1,\"category\":\"Company\"},{\"label\":\"Hello\",\"source\":\"keyword\",\"score\":0.73644,\"count\":null,\"category\":null},{\"label\":\"Hi\",\"source\":\"keyword\",\"score\":0.699595,\"count\":null,\"category\":null},{\"label\":\"Ok Bye\",\"source\":\"keyword\",\"score\":0.573137,\"count\":null,\"category\":null},{\"label\":\"Wyd Baby\",\"source\":\"keyword\",\"score\":0.542757,\"count\":null,\"category\":null},{\"label\":\"Test\",\"source\":\"keyword\",\"score\":0.433033,\"count\":null,\"category\":null},{\"label\":\"Night\",\"source\":\"keyword\",\"score\":0.428011,\"count\":null,\"category\":null}],\"mostRelevantMessage\":{\"messageId\":\"5884e997e4b0d193a2358931\",\"published\":1485105559011}},\"momentId\":\"819c9aa8097efe7bc12763a47c5786a61ed6e06a\",\"algorithm\":\"timegap\",\"participants\":[{\"authorId\":\"788e2495-b30a-4f49-b18f-90a1800529e4\",\"messageCount\":37},{\"authorId\":\"0e7833da-ea8c-44a8-9658-767ed232e6ea\",\"messageCount\":10},{\"authorId\":\"c30ed3ad-1057-464f-b844-948f9d367bf7\",\"messageCount\":14},{\"authorId\":\"18adb5c4-298c-4190-a737-8b788487c43f\",\"messageCount\":2},{\"authorId\":\"0a8a9487-5c36-4be9-b466-c33e7695718c\",\"messageCount\":1}],\"startMessage\":{\"messageId\":\"5884daede4b0d193a23584c2\",\"published\":1485101805887},\"lastUpdatedMessage\":{\"messageId\":\"5884f5bbe4b0d193a2358ed0\",\"published\":1485108667513},\"momentVersion\":6}","messageId":"5884daede4b0d193a23584c2","annotationType":"conversation-moment","annotationId":"5884daeee4b0d193a23584c3","time":1485108667641,"type":"message-annotation-edited","userName":null,"userId":"toscana-service-moment-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"hello\",\"keywords\":[{\"relevance\":0.931539,\"text\":\"hello\"}]}","messageId":"5884f5bbe4b0d193a2358ed0","annotationType":"message-nlp-keywords","annotationId":"5884f5bbe4b019247557745b","time":1485108667896,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"hello\",\"docSentiment\":{\"score\":0.603233,\"type\":\"positive\"}}","messageId":"5884f5bbe4b0d193a2358ed0","annotationType":"message-nlp-docSentiment","annotationId":"5884f5bbe4b019247557745c","time":1485108667896,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f5c1e4b0d193a2358ed1","time":1485108673954,"type":"message-created","userName":"Eric Mok","userId":"788e2495-b30a-4f49-b18f-90a1800529e4","contentType":"text/html","content":"what is it!"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"what is it!\",\"docSentiment\":{\"type\":\"neutral\"}}","messageId":"5884f5c1e4b0d193a2358ed1","annotationType":"message-nlp-docSentiment","annotationId":"5884f5c2e4b019247557745d","time":1485108674197,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f5c8e4b0d193a2358edb","time":1485108680426,"type":"message-created","userName":"Eric Mok","userId":"788e2495-b30a-4f49-b18f-90a1800529e4","contentType":"text/html","content":"nothing ^^\""}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"nothing ^^\\\"\",\"docSentiment\":{\"score\":-0.4664,\"type\":\"negative\"}}","messageId":"5884f5c8e4b0d193a2358edb","annotationType":"message-nlp-docSentiment","annotationId":"5884f5c8e4b0d193a2358edc","time":1485108680772,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f5d0e4b0d193a2358ee1","time":1485108688469,"type":"message-created","userName":"Eric Mok","userId":"788e2495-b30a-4f49-b18f-90a1800529e4","contentType":"text/html","content":"oh really <_<"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"oh really \\u003c_\\u003c\",\"docSentiment\":{\"score\":-0.430134,\"type\":\"negative\"}}","messageId":"5884f5d0e4b0d193a2358ee1","annotationType":"message-nlp-docSentiment","annotationId":"5884f5d0e4b007614d44240e","time":1485108688828,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f643e4b0d193a2358f23","time":1485108803225,"type":"message-created","userName":"Joshua Suzuki","userId":"0e7833da-ea8c-44a8-9658-767ed232e6ea","contentType":"text/html","content":"i like swimming"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"hidden\":false,\"spaceId\":\"58838c97e4b007614d439dcf\",\"momentSummary\":{\"phrases\":[{\"label\":\"Yo\",\"source\":\"keyword\",\"score\":0.957717,\"count\":null,\"category\":null},{\"label\":\"Hey Babe\",\"source\":\"keyword\",\"score\":0.855321,\"count\":null,\"category\":null},{\"label\":\"Abc\",\"source\":\"entity\",\"score\":0.79349,\"count\":1,\"category\":\"Company\"},{\"label\":\"Hello\",\"source\":\"keyword\",\"score\":0.73644,\"count\":null,\"category\":null},{\"label\":\"Hi\",\"source\":\"keyword\",\"score\":0.699595,\"count\":null,\"category\":null},{\"label\":\"Ok Bye\",\"source\":\"keyword\",\"score\":0.573137,\"count\":null,\"category\":null},{\"label\":\"Wyd Baby\",\"source\":\"keyword\",\"score\":0.542757,\"count\":null,\"category\":null},{\"label\":\"Test\",\"source\":\"keyword\",\"score\":0.433033,\"count\":null,\"category\":null},{\"label\":\"Night\",\"source\":\"keyword\",\"score\":0.428011,\"count\":null,\"category\":null}],\"mostRelevantMessage\":{\"messageId\":\"5884e997e4b0d193a2358931\",\"published\":1485105559011}},\"momentId\":\"819c9aa8097efe7bc12763a47c5786a61ed6e06a\",\"algorithm\":\"timegap\",\"participants\":[{\"authorId\":\"788e2495-b30a-4f49-b18f-90a1800529e4\",\"messageCount\":40},{\"authorId\":\"0e7833da-ea8c-44a8-9658-767ed232e6ea\",\"messageCount\":11},{\"authorId\":\"c30ed3ad-1057-464f-b844-948f9d367bf7\",\"messageCount\":14},{\"authorId\":\"18adb5c4-298c-4190-a737-8b788487c43f\",\"messageCount\":2},{\"authorId\":\"0a8a9487-5c36-4be9-b466-c33e7695718c\",\"messageCount\":1}],\"startMessage\":{\"messageId\":\"5884daede4b0d193a23584c2\",\"published\":1485101805887},\"lastUpdatedMessage\":{\"messageId\":\"5884f643e4b0d193a2358f23\",\"published\":1485108803225},\"momentVersion\":6}","messageId":"5884daede4b0d193a23584c2","annotationType":"conversation-moment","annotationId":"5884daeee4b0d193a23584c3","time":1485108803398,"type":"message-annotation-edited","userName":null,"userId":"toscana-service-moment-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"i like swimming\",\"keywords\":[{\"relevance\":0.919899,\"text\":\"swimming\"}]}","messageId":"5884f643e4b0d193a2358f23","annotationType":"message-nlp-keywords","annotationId":"5884f643e4b01924755774a5","time":1485108803432,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"i like swimming\",\"docSentiment\":{\"type\":\"neutral\"}}","messageId":"5884f643e4b0d193a2358f23","annotationType":"message-nlp-docSentiment","annotationId":"5884f643e4b01924755774a6","time":1485108803432,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"i like swimming\",\"relations\":[{\"sentence\":\"i like swimming\",\"subject\":{\"text\":\"i\"},\"action\":{\"lemmatized\":\"like\",\"text\":\"like\",\"verb\":{\"tense\":\"present\",\"text\":\"like\"}},\"object\":{\"keywords\":[{\"text\":\"swimming\"}],\"text\":\"swimming\"}}]}","messageId":"5884f643e4b0d193a2358f23","annotationType":"message-nlp-relations","annotationId":"5884f643e4b01924755774a7","time":1485108803432,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"i like swimming\",\"taxonomy\":[{\"confident\":false,\"label\":\"/sports/swimming\",\"score\":0.999906},{\"confident\":false,\"label\":\"/sports/running and jogging\",\"score\":0.0109579},{\"confident\":false,\"label\":\"/sports/canoeing and kayaking\",\"score\":0.00738961}]}","messageId":"5884f643e4b0d193a2358f23","annotationType":"message-nlp-taxonomy","annotationId":"5884f643e4b01924755774a8","time":1485108803432,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f696e4b007614d44247d","time":1485108886987,"type":"message-created","userName":"Botfly","userId":"c30ed3ad-1057-464f-b844-948f9d367bf7","contentType":"text/html","content":""}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"type\":\"generic\",\"version\":1.0,\"text\":\"hey bighead\"}","messageId":"5884f696e4b007614d44247d","annotationType":"generic","annotationId":"5884f696e4b007614d44247c","time":1485108886987,"type":"message-annotation-added","userName":"Botfly","userId":"c30ed3ad-1057-464f-b844-948f9d367bf7"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"hey bighead\",\"docSentiment\":{\"score\":0.502287,\"type\":\"positive\"}}","messageId":"5884f696e4b007614d44247d","annotationType":"message-nlp-docSentiment","annotationId":"5884f697e4b007614d44247e","time":1485108887305,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f6c0e4b0d193a2358f50","time":1485108928306,"type":"message-created","userName":"Eric Mok","userId":"788e2495-b30a-4f49-b18f-90a1800529e4","contentType":"text/html","content":"hey"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"hidden\":false,\"spaceId\":\"58838c97e4b007614d439dcf\",\"momentSummary\":{\"phrases\":[{\"label\":\"Yo\",\"source\":\"keyword\",\"score\":0.957717,\"count\":null,\"category\":null},{\"label\":\"Hey Babe\",\"source\":\"keyword\",\"score\":0.855321,\"count\":null,\"category\":null},{\"label\":\"Abc\",\"source\":\"entity\",\"score\":0.79349,\"count\":1,\"category\":\"Company\"},{\"label\":\"Hello\",\"source\":\"keyword\",\"score\":0.73644,\"count\":null,\"category\":null},{\"label\":\"Hi\",\"source\":\"keyword\",\"score\":0.699595,\"count\":null,\"category\":null},{\"label\":\"Ok Bye\",\"source\":\"keyword\",\"score\":0.573137,\"count\":null,\"category\":null},{\"label\":\"Wyd Baby\",\"source\":\"keyword\",\"score\":0.542757,\"count\":null,\"category\":null},{\"label\":\"Test\",\"source\":\"keyword\",\"score\":0.433033,\"count\":null,\"category\":null},{\"label\":\"Night\",\"source\":\"keyword\",\"score\":0.428011,\"count\":null,\"category\":null}],\"mostRelevantMessage\":{\"messageId\":\"5884e997e4b0d193a2358931\",\"published\":1485105559011}},\"momentId\":\"819c9aa8097efe7bc12763a47c5786a61ed6e06a\",\"algorithm\":\"timegap\",\"participants\":[{\"authorId\":\"788e2495-b30a-4f49-b18f-90a1800529e4\",\"messageCount\":41},{\"authorId\":\"0e7833da-ea8c-44a8-9658-767ed232e6ea\",\"messageCount\":11},{\"authorId\":\"c30ed3ad-1057-464f-b844-948f9d367bf7\",\"messageCount\":15},{\"authorId\":\"18adb5c4-298c-4190-a737-8b788487c43f\",\"messageCount\":2},{\"authorId\":\"0a8a9487-5c36-4be9-b466-c33e7695718c\",\"messageCount\":1}],\"startMessage\":{\"messageId\":\"5884daede4b0d193a23584c2\",\"published\":1485101805887},\"lastUpdatedMessage\":{\"messageId\":\"5884f6c0e4b0d193a2358f50\",\"published\":1485108928306},\"momentVersion\":6}","messageId":"5884daede4b0d193a23584c2","annotationType":"conversation-moment","annotationId":"5884daeee4b0d193a23584c3","time":1485108928403,"type":"message-annotation-edited","userName":null,"userId":"toscana-service-moment-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"hey\",\"keywords\":[{\"relevance\":0.954835,\"text\":\"hey\"}]}","messageId":"5884f6c0e4b0d193a2358f50","annotationType":"message-nlp-keywords","annotationId":"5884f6c0e4b0d193a2358f51","time":1485108928614,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"hey\",\"docSentiment\":{\"score\":0.482401,\"type\":\"positive\"}}","messageId":"5884f6c0e4b0d193a2358f50","annotationType":"message-nlp-docSentiment","annotationId":"5884f6c0e4b0d193a2358f52","time":1485108928614,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","messageId":"5884f6c5e4b0d193a2358f53","time":1485108933152,"type":"message-created","userName":"Eric Mok","userId":"788e2495-b30a-4f49-b18f-90a1800529e4","contentType":"text/html","content":"what's up?"}
+
+
+{"spaceName":"Naive Babes","spaceId":"58838c97e4b007614d439dcf","annotationPayload":"{\"language\":\"english\",\"text\":\"what\\u0027s up?\",\"docSentiment\":{\"type\":\"neutral\"}}","messageId":"5884f6c5e4b0d193a2358f53","annotationType":"message-nlp-docSentiment","annotationId":"5884f6c5e4b01924755774da","time":1485108933478,"type":"message-annotation-added","userName":null,"userId":"toscana-aip-nlc-consumer-client-id"}
+
+
