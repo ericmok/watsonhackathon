@@ -44,7 +44,7 @@ require 'httparty'
 key = webhook
 digest = OpenSSL::Digest.new('sha256')
 
-spaceId = ""
+spaceId = "58838c97e4b007614d439dcf"
 host = "https://api.watsonwork.ibm.com/v1/spaces/#{spaceId}/messages"
 require_relative 'message'
 require_relative 'annotation'
@@ -52,7 +52,6 @@ require_relative 'annotation'
 body = Message.new
 body.text = "hey babe, wyd"
 res = HTTParty.post( host, :headers => { "Authorization" => "Bearer #{access_token}", 'Content-Type' => 'application/json'}, :body => body.to_json)
-
 
 
 post '/webhook' do
