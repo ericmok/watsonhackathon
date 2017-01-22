@@ -38,8 +38,8 @@ digest = OpenSSL::Digest.new('sha256')
 
 spaceId = ""
 host = "https://api.watsonwork.ibm.com/v1/spaces/#{spaceId}/messages"
-require './message'
-require './annotation'
+require_relative 'message'
+require_relative 'annotation'
 
 body = Message.new
 body.text = "hey babe, wyd"

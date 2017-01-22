@@ -1,4 +1,5 @@
-require './annotation'
+require_relative 'annotation'
+
 class Message
   def initialize
     @message = {
